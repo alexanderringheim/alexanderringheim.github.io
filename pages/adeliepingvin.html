@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Penguins Wiki</title>
+      <link rel="stylesheet" href="../styles/penguins_base_style.css">
+      <link rel="stylesheet" href="../styles/navigation_style.css">
+      <link rel="stylesheet" href="../styles/adelie_style.css">
+      <script type="text/javascript" src="../scripts/navigation.js"></script>
+   </head>
+   <body>
+      <div class="page">
+
+
+         <div class="header">
+            <b><a href="images/squad.png"><img src="../images/squad.png" alt="A penguin" width="140" height="120" align></a><i>The number 1 penguin wiki online!</i></b>
+         </div>
+
+
+         <div class="navigation-container">
+            <a href="../index.html" class="dropbtn" style="font-family: arial;text-decoration: none; font-size: 16px;">Home</a>
+            <div class="dropdown">
+               <button onclick="toggleView('penguinsDropDown')" class="dropbtn">Penguins</button>
+               <div id="penguinsDropDown" class="dropdown-content">
+                  <a href="../pages/adeliepingvin.html" id="current_page">Adelie</a>
+                  <a href="../pages/dvergpingvin.html">Dwarf</a>
+                  <a href="../pages/kongepingvin.html">Emperor</a>
+               </div>
+            </div>
+            <div class="dropdown">
+               <button onclick="toggleView('videosDropDown')" class="dropbtn">Videos</button>
+               <div id="videosDropDown" class="dropdown-content">
+
+               </div>
+            </div>
+            <a href="pages/gallery.html" class="dropbtn" style="font-family: arial; text-decoration: none; font-size: 16px;">Gallery</a>
+         </div>
+
+
+         <div class="paper-background">
+
+            <div class="info-content">
+               <div class="info">
+                  <div id="penguins">
+                     <p class="title" id="title">Adelie Penguins</p>
+                     <p class="text">These are adelie penguins. The Adélie penguin (Pygoscelis adeliae) is, along with the emperor penguin, the most common penguin along the Antarctic coast. They are among the seabirds that live the furthest south. They are named after Adélie Land, which refers to Adèle Dumont d'Urville, the wife of the French explorer Jules Dumont d'Urville, who in 1840 discovered these penguins.</p>
+                     <p class="text" id=""></p>
+                     <div class="navigate_page">
+                        <ul>
+                           <b>Navigate</b>
+                           <li> <a href="#intro">Intro</a> </li>
+                           <li> <a href="#description">Description</a> </li>
+                        </ul>
+                     </div>
+                     <p class="text">Rumors has it that there is an island containing 3,97 million adelie penguins.</p>
+                  </div>
+                  <div id="penguins_images">
+                     <a href="../images/adelie_penguins.png"><img src="../images/adelie_penguins.png" alt="Adelie Penguins" width="300" height="230"></a>
+                     <i>Adelie penguins in a group of 3.</i>
+                     <b class="source-style">Source: <a href="https://news.nationalgeographic.com/2018/03/adelie-penguins-colonies-discovered-antarctica-environment/">National Geographics</a></b>
+                     <video src="../videos/adelie.mp4" controls width="300" height="230"></video>
+                     <i>Adelie Penguins montage.</i>
+                     <b class="source-style"> <a href="https://www.youtube.com/watch?v=YKqXGNNPNaQ">Youtube: National Geographics</a> </b>
+                  </div>
+
+               </div>
+               <div style="border-top: solid 1px gray; margin-top: 20px;"></div>
+               <div class="description">
+                  <p class="title" id="description">Description</p>
+                  <p class="text">This penguin is a mid-sized penguin, where a grown-up adelie penguin will become about 46cm to 71cm tall, and 3.6kg to 6kg heavy. The tail is a little longer than other penguins' tails. The appearance looks somewhat like a tuxedo. They are a little smaller than other penguin species.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

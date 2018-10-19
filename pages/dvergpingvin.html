@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Penguins Wiki</title>
+      <link rel="stylesheet" href="../styles/penguins_base_style.css">
+      <link rel="stylesheet" href="../styles/navigation_style.css">
+      <link rel="stylesheet" href="../styles/dwarf_style.css">
+      <script type="text/javascript" src="../scripts/navigation.js"></script>
+   </head>
+   <body>
+      <div class="page">
+
+
+         <div class="header">
+            <b><a href="images/squad.png"><img src="../images/squad.png" alt="A penguin" width="140" height="120" align></a><i>The number 1 penguin wiki online!</i></b>
+         </div>
+
+
+         <div class="navigation-container">
+            <a href="../index.html" class="dropbtn" style="font-family: arial;text-decoration: none; font-size: 16px;">Home</a>
+            <div class="dropdown">
+               <button onclick="toggleView('penguinsDropDown')" class="dropbtn">Penguins</button>
+               <div id="penguinsDropDown" class="dropdown-content">
+                  <a href="../pages/adeliepingvin.html" >Adelie</a>
+                  <a href="../pages/dvergpingvin.html" id="current_page">Dwarf</a>
+                  <a href="../pages/kongepingvin.html">Emperor</a>
+               </div>
+            </div>
+            <div class="dropdown">
+               <button onclick="toggleView('videosDropDown')" class="dropbtn">Videos</button>
+               <div id="videosDropDown" class="dropdown-content">
+
+               </div>
+            </div>
+            <a href="pages/gallery.html" class="dropbtn" style="font-family: arial; text-decoration: none; font-size: 16px;">Gallery</a>
+         </div>
+
+
+         <div class="paper-background">
+
+            <div class="info-content">
+               <div class="info">
+                  <div id="penguins">
+                     <p class="title" id="title">Dwarf Penguins</p>
+                     <p class="text"></p>
+                     <p class="text" id=""></p>
+                     <div class="navigate_page">
+                        <ul>
+                           <b>Navigate</b>
+                           <li> <a href="#intro">Intro</a> </li>
+                           <li> <a href="#description">Description</a> </li>
+                        </ul>
+                     </div>
+                     <p class="text"></p>
+                  </div>
+                  <div id="penguins_images">
+                     <a href="../images/dwarf_penguins.png"><img src="../images/dwarf_penguins.png" alt="Dwarf Penguins" width="300" height="230"></a>
+                     <i>Dwarf Penguins</i>
+                     <b class="source-style">Source: <a href="https://www.google.no/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjLy-mxupLeAhVx_SoKHSrdDb0QjB16BAgBEAQ&url=http%3A%2F%2Fwww.australienbilder.de%2Fserien%2Fseiten%2Fe-tier4.htm&psig=AOvVaw2a-Y4rFnmWV_iDnsci0fPx&ust=1540036822694205">Australia photos</a></b>
+                     <video src="../videos/dwarf_penguins.mp4" controls width="300" height="230"></video>
+                     <i>Dwarf Penguins.</i>
+                     <b class="source-style">Source: <a href="https://www.youtube.com/watch?v=yss9fXBCcDg">Youtube</a> </b>
+                  </div>
+               </div>
+               <div style="border-top: solid 1px gray; margin-top: 20px;"></div>
+               <div class="description">
+                  <p class="title" id="description">Description</p>
+                  <p class="text"></p>
+               </div>
+            </div>
+         </div>
+
+
+      </div>
+   </body>
+</html>

@@ -1,0 +1,14 @@
+#penguins {
+}
+#penguins_images {
+   margin-left: auto;
+   font-size: 15px;
+   padding: 15px;
+   display: flex;
+   flex-flow: column;
+}
+#current_page { background-color: lightgray; }
+#current_page:hover {background-color: #777;}
+
+.description {
+}
