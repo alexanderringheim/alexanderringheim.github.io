@@ -3,6 +3,7 @@
    <head>
       <meta charset="utf-8">
       <title>Penguins Wiki</title>
+      <link rel="icon" href="images/favico.ico">
       <link rel="stylesheet" href="styles/penguins_base_style.css">
       <link rel="stylesheet" href="styles/navigation_style.css">
       <link rel="stylesheet" href="styles/hub_style.css">
@@ -22,17 +23,12 @@
             <div class="dropdown">
                <button onclick="toggleView('penguinsDropDown')" class="dropbtn">Penguins</button>
                <div id="penguinsDropDown" class="dropdown-content">
-                  <a href="pages/adeliepingvin.html">Adelie</a>
-                  <a href="pages/dvergpingvin.html">Dwarf</a>
-                  <a href="pages/kongepingvin.html">Emperor</a>
+                  <a href="pages/adeliepenguin.html" >Adelie</a>
+                  <a href="pages/dwarfpenguin.html">Dwarf</a>
+                  <a href="pages/emperorpenguin.html">Emperor</a>
                </div>
             </div>
-            <div class="dropdown">
-               <button onclick="toggleView('videosDropDown')" class="dropbtn">Videos</button>
-               <div id="videosDropDown" class="dropdown-content">
-
-               </div>
-            </div>
+            <a href="pages/videos.html" class="dropbtn" style="font-family: arial; text-decoration: none; font-size: 16px;">Videos</a>
             <a href="pages/gallery.html" class="dropbtn" style="font-family: arial; text-decoration: none; font-size: 16px;">Gallery</a>
          </div>
 
@@ -43,11 +39,12 @@
                <div class="info" id="intro">
                   <div id="penguins">
                      <p class="title">Penguins</p>
+                     <audio src="sound/penguins.mp3" controls></audio>
                      <p class="text">Penguins are a species of birds. Penguins belong to the "Spheniscidea" family. Most penguins live around the Southern Hemisphere, with the exception of 1 penguin species, the Galapagos Penguin. Penguins also don't just live in cold climates like Antarctica, in fact, only a few species live that far south.</p>
 
-                     <p class="text">Penguins do not posess the ability to fly, like other bird species, though unlike birds like chickens and ducks that can fly for limited periods, penguins do not posess the ability to fly at all. Because of the climat they live in, it is much more benefitial to have the ability to swim to catch fish, and because of that, their wings eventualy turned to flippers that would allow them to move through water at a much faster pace.</p>
+                     <p class="text">Penguins do not posess the ability to fly, like other bird species that cannot fly, though unlike birds like chickens and ducks that can fly for limited periods, penguins do not posess the ability to fly at all. Because of the climat they live in, it is much more benefitial to have the ability to swim to catch fish, and because of that, their wings eventualy evolved into flippers that would allow them to move through water at a much faster pace.</p>
 
-                     <p class="text">The largest penguin species is called the emperor penguin. (Aptenodytes forsteri) where an adult will become about 1,1 meters.</p>
+                     <p class="text">The largest penguin species is called the emperor penguin. (Aptenodytes forsteri) where an adult will become about 1,1 meters tall.</p>
                      <div class="navigate_page">
                         <ul>
                            <b>Navigate</b>
@@ -83,8 +80,9 @@
                      </div>
                   </div>
                   <div style="padding-left: 30px; margin-top: 30px;">
-                     <b class="title" id="species_title">Species</b>
-                     <p class="text">There are about 60 species of penguins.</p>
+                     <b class="title" id="species_title">Species</b> <br>
+                     <audio src="sound/species.mp3" controls style="margin-top: 10px;"></audio>
+                     <p class="text">There are about 60 species of penguins that we know of, but only about 17 of them is known to be living today. 1 species, the galapagos, is primarily found on the northern Hemisphere, whilst the rest are found on the southern Heimsphere. There are mostly just 2 species that live as far south as Antarctica. The Adelie penguins and the emperor penguins.</p>
 
                   </div>
                </div>

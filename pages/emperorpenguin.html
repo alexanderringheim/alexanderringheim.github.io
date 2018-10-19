@@ -3,6 +3,7 @@
    <head>
       <meta charset="utf-8">
       <title>Penguins Wiki</title>
+      <link rel="icon" href="../images/favico.ico">
       <link rel="stylesheet" href="../styles/penguins_base_style.css">
       <link rel="stylesheet" href="../styles/navigation_style.css">
       <link rel="stylesheet" href="../styles/emperor_style.css">
@@ -22,18 +23,13 @@
             <div class="dropdown">
                <button onclick="toggleView('penguinsDropDown')" class="dropbtn">Penguins</button>
                <div id="penguinsDropDown" class="dropdown-content">
-                  <a href="../pages/adeliepingvin.html">Adelie</a>
-                  <a href="../pages/dvergpingvin.html">Dwarf</a>
-                  <a href="../pages/kongepingvin.html" id="current_page">Emperor</a>
+                  <a href="../pages/adeliepenguin.html" >Adelie</a>
+                  <a href="../pages/dwarfpenguin.html">Dwarf</a>
+                  <a href="../pages/emperorpenguin.html" id="current_page">Emperor</a>
                </div>
             </div>
-            <div class="dropdown">
-               <button onclick="toggleView('videosDropDown')" class="dropbtn">Videos</button>
-               <div id="videosDropDown" class="dropdown-content">
-
-               </div>
-            </div>
-            <a href="pages/gallery.html" class="dropbtn" style="font-family: arial; text-decoration: none; font-size: 16px;">Gallery</a>
+            <a href="videos.html" class="dropbtn" style="font-family: arial; text-decoration: none; font-size: 16px;">Videos</a>
+            <a href="gallery.html" class="dropbtn" style="font-family: arial; text-decoration: none; font-size: 16px;">Gallery</a>
          </div>
 
 
@@ -43,6 +39,7 @@
                <div class="info">
                   <div id="penguins">
                      <p class="title" id="title">Emperor Penguins</p>
+                     <audio src="../sound/emperor_penguins.mp3" controls></audio>
                      <p class="text">The emperor penguin (Aptenodytes forsteri) is the tallest and heaviest of all living penguin species lives in Antarctica. The male and female are similar in  size, reaching 122 cm (48 in) in height and weighing from 22 to 45 kg (49 to 99 lb). The head is black in a strong contrast from it's white belly. It also has yellow lines along it's head.</p>
                      <p class="text" id="">It's diet consists of fish.</p>
                      <div class="navigate_page">
@@ -66,6 +63,7 @@
                <div style="border-top: solid 1px gray; margin-top: 20px;"></div>
                <div class="description">
                   <p class="title" id="description">Description</p>
+                  <audio src="../sound/emperor_description.mp3" controls></audio>
                   <p class="text">Adult emperor penguins grows up to 110–130 cm tall. The weight ranges from 22.7 to 45.4 kg and varies by sex, with males weighing more than females. It is the fifth heaviest living bird species. The weight also varies by season, as both male and female penguins lose substantial mass while raising hatchlings and incubating their egg. A male emperor penguin will withstand the Antarctic cold for more than two months to protect his egg from extreme cold. During this entire time he does not eat anything. Most male penguins will lose about 12 kg (26 lb) while they wait for their chicks to hatch</p>
                </div>
             </div>

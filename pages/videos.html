@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Penguins Wiki</title>
+      <link rel="icon" href="../images/favico.ico">
+      <link rel="stylesheet" href="../styles/penguins_base_style.css">
+      <link rel="stylesheet" href="../styles/navigation_style.css">
+      <link rel="stylesheet" href="../styles/videos_style.css">
+      <script type="text/javascript" src="../scripts/navigation.js"></script>
+   </head>
+   <body>
+      <div class="page">
+
+
+         <div class="header">
+            <b><a href="images/squad.png"><img src="../images/squad.png" alt="A penguin" width="140" height="120" align></a><i>The number 1 penguin wiki online!</i></b>
+         </div>
+
+
+         <div class="navigation-container">
+            <a href="../index.html" class="dropbtn" style="font-family: arial;text-decoration: none; font-size: 16px;">Home</a>
+            <div class="dropdown">
+               <button onclick="toggleView('penguinsDropDown')" class="dropbtn">Penguins</button>
+               <div id="penguinsDropDown" class="dropdown-content">
+                  <a href="../pages/adeliepenguin.html">Adelie</a>
+                  <a href="../pages/dwarfpenguin.html">Dwarf</a>
+                  <a href="../pages/emperorpenguin.html">Emperor</a>
+               </div>
+            </div>
+            <a href="videos.html" class="dropbtn" style="font-family: arial; text-decoration: none; font-size: 16px;">Videos</a>
+            <a href="gallery.html" class="dropbtn" style="font-family: arial; text-decoration: none; font-size: 16px;">Gallery</a>
+         </div>
+
+
+         <div class="paper-background">
+
+            <div class="info-content">
+               <p class="title">Penguin videos</p>
+               <p class="text">This is a collection of all videos found on this wiki, as well as a few more from other pages.</p>
+               <div class="grid-container" style="margin-top: 40px; margin-bottom: 80px;">
+
+                  <div class="grid-item">
+                     <video src="../videos/adelie.mp4" controls height="230" width="300"></video>
+                     <i>Adelie penguins</i>
+                  </div>
+                  <div class="grid-item">
+                     <video src="../videos/dwarf_penguins.mp4" controls height="230" width="300"></video>
+                     <i>Dwarf penguins</i>
+                  </div>
+                  <div class="grid-item">
+                     <video src="../videos/emperor_penguins_antarctica.mp4" controls height="230" width="300"></video>
+                     <i>Emperor penguins</i>
+                  </div>
+                  <div class="grid-item">
+                     <iframe width="300" height="230" src="https://www.youtube.com/embed/16_J6Trw4yE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                     <i><b>Funny penguins</b></i>
+                     <i>Note: if this video does not work, try watching <a href="https://www.youtube.com/watch?v=16_J6Trw4yE">here</a> </i>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

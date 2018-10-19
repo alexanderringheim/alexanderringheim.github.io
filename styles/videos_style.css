@@ -7,29 +7,16 @@
 
 .grid-container {
    display: grid;
-   grid-template-columns: auto auto auto auto auto;
-   grid-gap: 40px;
+   grid-template-columns: auto auto auto;
+   grid-gap: 50px;
 }
 
 .grid-item {
    display: flex;
    flex-direction: column;
+   width: 330px;
 }
 
-#i1 {}
-#i2 {}
-#i3 {}
-#i4 {}
-#i5 {}
-#i6 {}
-#i7 {}
-#i8 {}
-#i9 {}
-#i10 {}
-#i11 {}
-#i12 {}
-#i13 {}
-#i14 {}
-#i15 {}
-#i16 {}
-#i17 {}
+.grid-item i {
+   margin-top: 10px;
+}

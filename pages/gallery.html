@@ -2,11 +2,117 @@
 <html lang="en" dir="ltr">
    <head>
       <meta charset="utf-8">
-      <title></title>
+      <title>Penguins Wiki</title>
+      <link rel="icon" href="../images/favico.ico">
+      <link rel="stylesheet" href="../styles/penguins_base_style.css">
+      <link rel="stylesheet" href="../styles/navigation_style.css">
+      <link rel="stylesheet" href="../styles/gallery_style.css">
+      <script type="text/javascript" src="../scripts/navigation.js"></script>
    </head>
    <body>
-      <div class="grid-container">
+      <div class="page">
 
+
+         <div class="header">
+            <b><a href="images/squad.png"><img src="../images/squad.png" alt="A penguin" width="140" height="120" align></a><i>The number 1 penguin wiki online!</i></b>
+         </div>
+
+
+         <div class="navigation-container">
+            <a href="../index.html" class="dropbtn" style="font-family: arial;text-decoration: none; font-size: 16px;">Home</a>
+            <div class="dropdown">
+               <button onclick="toggleView('penguinsDropDown')" class="dropbtn">Penguins</button>
+               <div id="penguinsDropDown" class="dropdown-content">
+                  <a href="../pages/adeliepenguin.html" >Adelie</a>
+                  <a href="../pages/dwarfpenguin.html">Dwarf</a>
+                  <a href="../pages/emperorpenguin.html">Emperor</a>
+               </div>
+            </div>
+            <a href="videos.html" class="dropbtn" style="font-family: arial; text-decoration: none; font-size: 16px;">Videos</a>
+            <a href="gallery.html" class="dropbtn" style="font-family: arial; text-decoration: none; font-size: 16px;">Gallery</a>
+         </div>
+
+
+         <div class="paper-background">
+
+            <div class="info-content">
+               <p class="title">Penguin gallery</p>
+               <p class="text" style="line-height: 0px;">This gallery contains images of all 17 species of penguins that are known to be alive today.</p>
+               <i>Source: <a href="http://www.penguinworld.com/types/">Penguin World</a> </i>
+
+               <div class="grid-container" style="margin-top: 40px; margin-bottom: 80px;">
+                  <div class="grid-item" id="i1">
+                     <a href="../images/alphabetical/adelie.png"> <img src="../images/alphabetical/adelie.png" alt="Adelie penguin"> </a>
+                     <i>Adelie penguin</i>
+                  </div>
+                  <div class="grid-item" id="i2">
+                     <a href="../images/alphabetical/african.png"> <img src="../images/alphabetical/african.png" alt="African penguin"> </a>
+                     <i>African penguin</i>
+                  </div>
+                  <div class="grid-item" id="i3">
+                     <a href="../images/alphabetical/chinstrap.png"> <img src="../images/alphabetical/chinstrap.png" alt="Chinstrap penguin"> </a>
+                     <i>Chinstrap penguin</i>
+                  </div>
+                  <div class="grid-item" id="i4">
+                     <a href="../images/alphabetical/emperor.png"> <img src="../images/alphabetical/emperor.png" alt="Emperor penguin"> </a>
+                     <i>Emperor penguin</i>
+                  </div>
+                  <div class="grid-item" id="i5">
+                     <a href="../images/alphabetical/erect-crested.png"> <img src="../images/alphabetical/erect-crested.png" alt="Erect-crested penguin"> </a>
+                     <i>Erect-crested penguin</i>
+                  </div>
+                  <div class="grid-item" id="i6">
+                     <a href="../images/alphabetical/fjordland.png"> <img src="../images/alphabetical/fjordland.png" alt="Fjordland penguin"> </a>
+                     <i>Fjordland penguin</i>
+                  </div>
+                  <div class="grid-item" id="i7">
+                     <a href="../images/alphabetical/galapagos.png"> <img src="../images/alphabetical/galapagos.png" alt="Galapagos penguin"> </a>
+                     <i>Galapagos penguin</i>
+                  </div>
+                  <div class="grid-item" id="i8">
+                     <a href="../images/alphabetical/gentoo.png"> <img src="../images/alphabetical/gentoo.png" alt="Gentoo penguin"> </a>
+                     <i>Gentoo penguin</i>
+                  </div>
+                  <div class="grid-item" id="i9">
+                     <a href="../images/alphabetical/humboldt.png"> <img src="../images/alphabetical/humboldt.png" alt="Humboldt penguin"> </a>
+                     <i>Humboldt penguin</i>
+                  </div>
+                  <div class="grid-item" id="i10">
+                     <a href="../images/alphabetical/king.png"> <img src="../images/alphabetical/king.png" alt="King penguin"> </a>
+                     <i>King penguin</i>
+                  </div>
+                  <div class="grid-item" id="i11">
+                     <a href="../images/alphabetical/little.png"> <img src="../images/alphabetical/little.png" alt="Little penguin"> </a>
+                     <i>Dwarf penguin</i>
+                  </div>
+                  <div class="grid-item" id="i12">
+                     <a href="../images/alphabetical/macaroni.png"> <img src="../images/alphabetical/macaroni.png" alt="Macaroni penguin"> </a>
+                     <i>Macaroni penguin</i>
+                  </div>
+                  <div class="grid-item" id="i13">
+                     <a href="../images/alphabetical/magellanic.png"> <img src="../images/alphabetical/magellanic.png" alt="Magellanic penguin"> </a>
+                     <i>Magellanic penguin</i>
+                  </div>
+                  <div class="grid-item" id="i14">
+                     <a href="../images/alphabetical/rockhopper.png"> <img src="../images/alphabetical/rockhopper.png" alt="Rockhopper penguin"> </a>
+                     <i>Rockhopper penguin</i>
+                  </div>
+                  <div class="grid-item" id="i15">
+                     <a href="../images/alphabetical/royal.png"> <img src="../images/alphabetical/royal.png" alt="Royal penguin"> </a>
+                     <i>Royal penguin</i>
+                  </div>
+                  <div class="grid-item" id="i16">
+                     <a href="../images/alphabetical/snares.png"> <img src="../images/alphabetical/snares.png" alt="Snares penguin"> </a>
+                     <i>Snares penguin</i>
+                  </div>
+                  <div class="grid-item" id="i17">
+                     <a href="../images/alphabetical/yellow-eyed.png"> <img src="../images/alphabetical/yellow-eyed.png" alt="Yellow-eyed penguin"> </a>
+                     <i>Yellow-eyed penguin</i>
+                  </div>
+               </div>
+            </div>
+
+         </div>
       </div>
    </body>
 </html>

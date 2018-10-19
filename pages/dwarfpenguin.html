@@ -3,6 +3,7 @@
    <head>
       <meta charset="utf-8">
       <title>Penguins Wiki</title>
+      <link rel="icon" href="../images/favico.ico">
       <link rel="stylesheet" href="../styles/penguins_base_style.css">
       <link rel="stylesheet" href="../styles/navigation_style.css">
       <link rel="stylesheet" href="../styles/dwarf_style.css">
@@ -22,18 +23,13 @@
             <div class="dropdown">
                <button onclick="toggleView('penguinsDropDown')" class="dropbtn">Penguins</button>
                <div id="penguinsDropDown" class="dropdown-content">
-                  <a href="../pages/adeliepingvin.html" >Adelie</a>
-                  <a href="../pages/dvergpingvin.html" id="current_page">Dwarf</a>
-                  <a href="../pages/kongepingvin.html">Emperor</a>
+                  <a href="../pages/adeliepenguin.html" >Adelie</a>
+                  <a href="../pages/dwarfpenguin.html" id="current_page">Dwarf</a>
+                  <a href="../pages/emperorpenguin.html">Emperor</a>
                </div>
             </div>
-            <div class="dropdown">
-               <button onclick="toggleView('videosDropDown')" class="dropbtn">Videos</button>
-               <div id="videosDropDown" class="dropdown-content">
-
-               </div>
-            </div>
-            <a href="pages/gallery.html" class="dropbtn" style="font-family: arial; text-decoration: none; font-size: 16px;">Gallery</a>
+            <a href="videos.html" class="dropbtn" style="font-family: arial; text-decoration: none; font-size: 16px;">Videos</a>
+            <a href="gallery.html" class="dropbtn" style="font-family: arial; text-decoration: none; font-size: 16px;">Gallery</a>
          </div>
 
 
@@ -43,8 +39,9 @@
                <div class="info">
                   <div id="penguins">
                      <p class="title" id="title">Dwarf Penguins</p>
+                     <audio src="../sound/dwarf_penguins.mp3" controls></audio>
+                     <p class="text">The dwarf penguin is the smallest species of penguin. On average, it grows about 33cm in height, and 43cm in length. It lives primarily on the coastlines of Australia and New Zealand. The dwarf penguin is often called the fairy penguin, blue penguins and little blue penguins.</p>
                      <p class="text"></p>
-                     <p class="text" id=""></p>
                      <div class="navigate_page">
                         <ul>
                            <b>Navigate</b>
@@ -52,7 +49,7 @@
                            <li> <a href="#description">Description</a> </li>
                         </ul>
                      </div>
-                     <p class="text"></p>
+                     <p class="text">The little penguin was first mentioned by German naturalist Johann Reinhold Forster in 1781. Several subspecies are known, but a precise classification of these is still not decided upon. The white-flippered penguin is sometimes considered a subspecies and sometimes a distinct species. As the Australian little penguins may be a distinct species, the white-flippered birds belong to a distinct species, although not exactly as originally assumed.</p>
                   </div>
                   <div id="penguins_images">
                      <a href="../images/dwarf_penguins.png"><img src="../images/dwarf_penguins.png" alt="Dwarf Penguins" width="300" height="230"></a>
@@ -66,7 +63,8 @@
                <div style="border-top: solid 1px gray; margin-top: 20px;"></div>
                <div class="description">
                   <p class="title" id="description">Description</p>
-                  <p class="text"></p>
+                  <audio src="../sound/dwarf_description.mp3" controls></audio>
+                  <p class="text">The dwarf penguin grows about  33cm in height and 43cm in length. On average, it weighs about 1,5kg. It's beak is a black or gray-ish color and is about 3-4cm long. It's feet are pink on top and black below.</p> <p>Just like regular penguins, the little penguin has evolved flippers to excell at swimming and fishing.</p>
                </div>
             </div>
          </div>
